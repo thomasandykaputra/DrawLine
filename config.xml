@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.ahlimedia.drawline" version="1.0.0.0">
 
 	<name>Draw Line</name>
@@ -9,7 +9,7 @@
 	<icon src="icon-256.png" width="256" height="256" gap:role="default" />
 
 	<preference name="permissions" value="none"/>
-	<preference name="android-targetSdkVersion" value="23" />
+	<preference name="android-targetSdkVersion" value="28" />
 
 	<feature name="http://api.phonegap.com/1.0/network"/>
 

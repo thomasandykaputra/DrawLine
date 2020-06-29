@@ -23198,13 +23198,13 @@ cr.behaviors.Sin = function(runtime)
 	behaviorProto.exps = new Exps();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Audio,
 	cr.plugins_.c2canvas,
 	cr.plugins_.LocalStorage,
 	cr.plugins_.Touch,
-	cr.plugins_.Text,
-	cr.plugins_.Sprite,
 	cr.plugins_.SpriteFontPlus,
+	cr.plugins_.Sprite,
+	cr.plugins_.Text,
+	cr.plugins_.Audio,
 	cr.behaviors.Sin,
 	cr.behaviors.Fade,
 	cr.system_object.prototype.cnds.OnLayoutStart,
@@ -23248,5 +23248,6 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.ResetGlobals,
 	cr.system_object.prototype.cnds.Every,
 	cr.system_object.prototype.acts.SubVar,
-	cr.plugins_.Sprite.prototype.exps.AnimationFrame
+	cr.plugins_.Sprite.prototype.exps.AnimationFrame,
+	cr.behaviors.Sin.prototype.acts.SetActive
 ];};
